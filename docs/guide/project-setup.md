@@ -179,7 +179,7 @@ pack.description=A Ghostly Guide
 
 If you have done everything correctly, your packs should show up in Minecraft now! If you don't see your pack, you should follow the [troubleshooting guide.](./troubleshooting)
 
-![](/assets/images/guide/project-setup/active_pack.png)
+<!-- ![](/assets/images/guide/project-setup/active_pack.png) -->
 
 ## Turn on Content Log
 
@@ -187,7 +187,7 @@ If you have done everything correctly, your packs should show up in Minecraft no
 Content log is the most useful tool you have for debugging your addons. Please do not skip this step.
 :::
 
-![](/assets/images/guide/content_log.png)
+<!-- ![](/assets/images/guide/content_log.png) -->
 
 Content Log is an extremely important debugging tool, which you should always have on.
 
@@ -201,8 +201,8 @@ Now we create a world to test your new add-on!
 
 2. Ensure that the following settings are set.
 
-    ![](/assets/images/guide/project-setup/settings_1.png)
-    ![](/assets/images/guide/project-setup/settings_2.png)
+ <!-- ![](/assets/images/guide/project-setup/settings_1.png)
+ ![](/assets/images/guide/project-setup/settings_2.png) -->
 
 3. Now activate your behavior pack, and your resource pack. You can do this by selecting the packs, and clicking 'apply'.
 
