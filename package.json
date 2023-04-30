@@ -2,9 +2,6 @@
     "devDependencies": {
         "vuepress": "^2.0.0-beta.61"
     },
-    "engines": {
-        "node": ">=16.0.0"
-    },
     "scripts": {
         "build": "vuepress build docs",
         "dev": "vuepress dev docs"
