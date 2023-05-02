@@ -170,7 +170,7 @@ The icon is an image file which identifies how your mod will look in-game. If yo
 
 ![](/images/mod_ico.png)
 
-You should place a copy of your desired image into `RP/dlc_data`. The image needs to be named `icon.jpg`. Do the same for `icon_alt` and `reward`.
+You should place a copy of your desired image into `RP/dlc_data`. The image needs to be named `icon.jpg`. Do the same for `icon_alt` and `reward`. Note that the `mod_icon.jpg` should be a 324 by 325 image for best results. Otherwise, the image will stretch to fit the dimensions, so be careful!
 
 ## Language Files
 
