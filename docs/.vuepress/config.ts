@@ -21,6 +21,11 @@ export default {
                         '/guide/project-setup.md',
                         '/guide/game-config.md'
                     ]
+                },
+                {
+                    text: 'Blocks',
+                    collapsible: true,
+                    children: ['/blocks/block-shape.md']
                 }
             ]
         },
