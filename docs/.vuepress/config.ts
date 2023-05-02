@@ -18,7 +18,8 @@ export default {
                     collapsible: true,
                     children: [
                         '/guide/software-preparation.md',
-                        '/guide/project-setup.md'
+                        '/guide/project-setup.md',
+                        '/guide/game-config.md'
                     ]
                 }
             ]
