@@ -25,7 +25,10 @@ export default {
                 {
                     text: 'Blocks',
                     collapsible: true,
-                    children: ['/blocks/block-shape.md']
+                    children: [
+                        '/blocks/block-shape.md',
+                        '/blocks/block-material.md'
+                    ]
                 }
             ]
         },
