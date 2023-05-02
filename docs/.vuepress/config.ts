@@ -29,6 +29,7 @@ export default {
                 }
             ]
         },
+        docsDir: 'docs',
         editLink: true,
         editLinkText: '⚙️ Edit this page on GitHub.',
         lastUpdatedText: 'Last Updated',
