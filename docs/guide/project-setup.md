@@ -18,10 +18,11 @@ _The remainder of this guide assumes you are using VSCode. You may also follow a
 Let's create your first mod workspace in Visual Studio Code now.
 
 1. Open VSCode (_Visual Studio Code, the code editor_)
-2. Create a folder named "`your_pack_name_RP`" in `resource_packs`. **This guide will refer to this folder as `RP`**
+2. Open your `premium_cache` folder, there should be two folders, `behavior_packs` and `resource_packs`
 3. Create a folder "`your_pack_name_BP`" in `behavior_packs`. **This guide will refer to this folder as `BP`**.
-4. Go to `File > Add folder to workspace...` and choose `BP`. Do the same with `RP`.
-5. Press `File > Save Workspace as...` to save the workspace file to your Desktop. Whenever you're working on your mod, all you have to do is open the workspace by double-clicking, and you will get quick access to both BP and RP folders.
+4. Create a folder "`your_pack_name_RP`" in `resource_packs`. **This guide will refer to this folder as `RP`**.
+
+![workspace](/images/workspace.png)
 
 ## BP Manifest
 
@@ -79,7 +80,7 @@ First, create a new file in your BP folder by right-clicking on the folder and s
 
 A UUID (_Universally Unique Identifier_) identifies your pack for other programs (in this case, Minecraft) to read. It looks something like this: `5c830391-0937-44d6-9774-406de66b6984`
 
-**NEVER USE THE SAME UUID TWICE.** You can generate your own UUIDs [here](https://www.uuidgenerator.net/version4) or, if you use VSCode, you can install [this](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator) extension. Many other tools like _bridge._ generate UUIDS automatically. Every manifest file uses two different UUIDs.
+**NEVER USE THE SAME UUID TWICE.** You can generate your own UUIDs [here](https://www.uuidgenerator.net/version4) or, if you use VSCode, you can install [this](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator) extension. Every manifest file uses two different UUIDs.
 
 To ensure that your mod will work correctly you should generate two new UUID's which you will paste into the BP `manifest.json` file, at each `"..."`. When you are finished, it should look something like this:
 

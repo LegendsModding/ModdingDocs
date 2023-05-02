@@ -11,8 +11,6 @@ Before you can start modding Legends, you first have to install the required too
 
 Modding Legends can be done using any text editor, however it's much more comfortable to work in a dedicated editor. A good editor can give you code-completion, error-detection, and in-editor documentation.
 
-There are strong opinions about the best editor for beginners, but generally speaking you cannot go wrong selecting either VSCode, or bridge. If you are mobile, you will need to use a mobile alternative.
-
 ### VSCode
 
 VSCode is a general purpose text-editor and IDE. With VSCode, you will be able to edit your mods in plain-text, guided along by a powerful array of extensions and addons. VSCode is a great option for programmers and advanced users.
