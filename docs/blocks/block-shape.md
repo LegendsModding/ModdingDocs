@@ -20,3 +20,6 @@ Here's a list of all known block shape used in Legends
 -   chunk
 -   post
 -   block
+-   water
+-   threequarter
+-   max_shapes
