@@ -29,6 +29,11 @@ export default {
                         '/blocks/block-shape.md',
                         '/blocks/block-material.md'
                     ]
+                },
+                {
+                    text: 'Features',
+                    collapsible: true,
+                    children: ['/features/features.md']
                 }
             ]
         },
