@@ -22,7 +22,7 @@ Many packages exist for VSCode that make modding easier:
 -   [.lang support](https://marketplace.visualstudio.com/items?itemName=zz5840.minecraft-lang-colorizer)
 -   [Prettify-json](https://marketplace.visualstudio.com/items?itemName=mohsen1.prettify-json)
 -   [Spell Checker (for writing wiki)](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
--   [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
+
 -   [UUID Generator](https://marketplace.visualstudio.com/items?itemName=netcorext.uuid-generator)
 
 ## Image Editors
