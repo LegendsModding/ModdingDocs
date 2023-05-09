@@ -26,8 +26,12 @@ export default {
                     text: 'Blocks',
                     collapsible: true,
                     children: [
+                        '/blocks/block-components.md',
+                        '/blocks/block-collision.md',
+                        '/blocks/block-material.md',
+                        '/blocks/block-render-layer.md',
                         '/blocks/block-shape.md',
-                        '/blocks/block-material.md'
+                        '/blocks/block-terrain-type.md'
                     ]
                 },
                 {
