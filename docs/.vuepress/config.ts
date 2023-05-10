@@ -5,10 +5,10 @@ export default {
     title: 'Legends Wiki',
     description: 'Minecraft Legends Modding Wiki.',
     base: '/ModdingDocs/',
-    head: [['link', { rel: 'icon', href: '/images/mod_ico.png' }]],
+    head: [['link', { rel: 'icon', href: '/ModdingDocs/images/mod_ico.png' }]],
     theme: defaultTheme({
         logo: '/images/mod_ico.png',
-        logoDark: '/ModdingDocs/images/mod_ico.png',
+        logoDark: '/images/mod_ico.png',
         repo: 'https://github.com/LegendsModdingCommunity/ModdingDocs',
         sidebarDepth: 0,
         // collapsible sidebar
