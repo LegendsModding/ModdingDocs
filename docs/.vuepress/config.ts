@@ -39,6 +39,11 @@ export default {
                     text: 'Features',
                     collapsible: true,
                     children: ['/features/features.md']
+                },
+                {
+                    text: 'Meta',
+                    collapsible: true,
+                    children: ['/meta/useful-links.md']
                 }
             ]
         },
