@@ -27,6 +27,7 @@ export default {
                     text: 'Blocks',
                     collapsible: true,
                     children: [
+                        '/blocks/block-intro.md',
                         '/blocks/block-components.md',
                         '/blocks/block-collision.md',
                         '/blocks/block-material.md',
