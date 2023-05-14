@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0bb4712f","path":"/blocks/block-render-layer.html","title":"Block Render Layer","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684094371000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":2}]},"filePathRelative":"blocks/block-render-layer.md"}');export{e as data};
