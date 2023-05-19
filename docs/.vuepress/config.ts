@@ -37,9 +37,9 @@ export default {
                     ]
                 },
                 {
-                    text: 'Features',
+                    text: 'World Generation',
                     collapsible: true,
-                    children: ['/features/features.md']
+                    children: ['/world-generation/features.md']
                 },
                 {
                     text: 'Meta',

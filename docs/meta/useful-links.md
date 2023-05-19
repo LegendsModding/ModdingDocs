@@ -12,6 +12,8 @@ Important links have a ⭐.
 
 -   ⭐ [Regolith](https://github.com/Bedrock-OSS/regolith)
 -   [BMESH](https://github.com/Luminoso-256/bmesh)
+-   [Everything](https://www.voidtools.com/)
+-   [Agent Ransack](https://www.mythicsoft.com/agentransack/)
 
 ## Websites
 
