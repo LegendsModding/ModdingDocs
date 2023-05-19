@@ -39,7 +39,10 @@ export default {
                 {
                     text: 'World Generation',
                     collapsible: true,
-                    children: ['/world-generation/features.md']
+                    children: [
+                        '/world-generation/biome-components.md',
+                        '/world-generation/features.md'
+                    ]
                 },
                 {
                     text: 'Meta',
