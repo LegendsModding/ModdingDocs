@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-e837ec9a","path":"/world-generation/biome-components.html","title":"Biome Components","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684492757000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":1}]},"filePathRelative":"world-generation/biome-components.md"}');export{e as data};
