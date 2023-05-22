@@ -14,6 +14,8 @@ Here's a list of all biome components, more documentation coming soon.
 
 ### minecraft:surface_parameters
 
+Defines the blocks that make up the biome.
+
 ```json
 {
     "minecraft:surface_parameters": {
@@ -39,28 +41,74 @@ Here's a list of all biome components, more documentation coming soon.
 }
 ```
 
+-   `top_material` - Defines the material to be used for the highest level
+-   `mid_material` - Defines the material to be used between the top and the foundation
+-   `foundation_material` - Defines the material to be used under the mid material
+-   `sea_floor_depth` - Defines how deep rivers and lakes will be
+-   `sea_floor_material` - Defines the material to be used for the river's and lake's floor
+-   `sea_extra_material` - Unknown
+-   `use_lower_wetness_bits` - Unknown
+-   `wetness_height_max` - Unknown
+-   `wetness_height_min` - Unknown
+-   `air_material` - Defines the material to be used for the empty spaces in a chunk
+-   `override_subchunk_optimization` - Unknown
+
+::: warning
+TODO: Document this
+
 -   ordered_surface
 -   conditional_top
 
+:::
+
 ### badger:fatefullands_surface
+
+Creates the terrain from the campaign on which the Well Of Fate sits upon
 
 ```json
 {
     "badger:fatefullands_surface": {
         "hill_noise_frequency": 0.25, // Float
+        "hill_noise_amplitude": 1.8, // Float
         "hill_top_height": 25, // Int
-        "river_noise_scale": 1.5, // Float
         "hill_width_scale": 75, // Int
+        "river_noise_scale": 1.5, // Float
         "rivers": [
             [110, 5, 5],
             [150, 5, 5]
-        ],
-        "hill_noise_amplitude": 1.8 // Float
+        ]
     }
 }
 ```
 
+-   `hill_noise_frequency` - Controls the noise frequency
+
+    -   Can be 0
+
+-   `hill_noise_amplitude` - Controls the noise amplitude
+
+    -   Can be 0
+
+-   `hill_top_height` - Controls the max height the hill can be
+
+    -   Can be 0
+
+-   hill_width_scale - Controls the max width the hill can be
+
+    -   Can be 0
+
+-   `river_noise_scale` - Controls the noise scale for the rivers
+
+    -   Can be 0
+
+-   `rivers` - Controls how many rings of rivers there are
+    -   First index is for the height
+    -   Second index is for the width
+    -   Third index is unknown. Could be related to noise
+
 ### badger:overworld_height
+
+Defines the biome's terrain shape.
 
 ```json
 {
@@ -81,7 +129,22 @@ Here's a list of all biome components, more documentation coming soon.
 }
 ```
 
+-   `frequency_scale` - Defines the frequency of the noise
+    -   Min of 1
+    -   Max of 5
+-   `noise_params` - Defines the noise params
+    -   Both indices can be 0, creates a flat ish terrain
+    -   First index can be negative, value from 2.4-2.5 creates a gap between the Bedrock layer and the terrain
+    -   Second index can be negative, any value past 5 has the same effects. Negative values creates a gap between the Bedrock layer and the terrain
+-   `height_params` - Unknown
+    -   average_height - required
+-   `mark_as_wet_in_geology_layer` - Unknown
+-   `mark_as_wet_when_stamped` - Unknown
+-   `noise_type` - Uses predefined noise
+
 ### badger:jungle_egg
+
+Unknown
 
 ```json
 {
@@ -90,6 +153,8 @@ Here's a list of all biome components, more documentation coming soon.
 ```
 
 ### badger:rivers
+
+Defines the rivers that create the borders between biomes
 
 ```json
 {
@@ -214,6 +279,8 @@ Here's a list of all biome components, more documentation coming soon.
 ```
 
 ### badger:icewave
+
+Places ice waves.
 
 ```json
 {
