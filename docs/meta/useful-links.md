@@ -11,6 +11,7 @@ Important links have a ⭐.
 ## Software (installed)
 
 -   ⭐ [Regolith](https://github.com/Bedrock-OSS/regolith)
+-   ⭐ [ContentLogEnabler](https://github.com/LegendsModding/ContentLogEnabler)
 -   [BMESH](https://github.com/Luminoso-256/bmesh)
 -   [Everything](https://www.voidtools.com/)
 -   [Agent Ransack](https://www.mythicsoft.com/agentransack/)

@@ -83,14 +83,6 @@ To test our blocks, we will replace the grass with our custom blocks. Create a `
     "format_version": "1.13.0",
     "minecraft:biome": {
         "components": {
-            "badger:overworld_height": {
-                "height_params": {
-                    "average_height": 25,
-                    "texture_heights": [19, 30]
-                },
-                "noise_params": [0.05, 0.0]
-            },
-            "grasslands": {},
             "minecraft:surface_parameters": {
                 "default_surface": {
                     "mid_material": "badger:block_dirt",
@@ -100,8 +92,7 @@ To test our blocks, we will replace the grass with our custom blocks. Create a `
                 "sea_floor_depth": 4,
                 "sea_floor_material": "badger:block_sand",
                 "sea_material": "badger:block_water"
-            },
-            "overworld": {}
+            }
         },
         "description": {
             "identifier": "grasslands"
