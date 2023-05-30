@@ -4,7 +4,7 @@ Now that Legends registers your mod, it's time for you to be able to test it.
 
 ## Gamelayer
 
-First, create a `gamelayer` folder in the RP folder. Inside `gameplayer`, create a folder called `launcher`. Inside the `launcher` folder, create a file called `game_mode.json`.
+First, create a `gamelayer` folder in the RP folder. Inside `gamelayer`, create a folder called `launcher`. Inside the `launcher` folder, create a file called `game_mode.json`.
 
 ![game_mode](/images/game_mode.png)
 
@@ -32,7 +32,7 @@ First, create a `gamelayer` folder in the RP folder. Inside `gameplayer`, create
 
 ## Game Rules
 
-Now we need to define the game rules for the custom gamemode. Create `game_rules` folder and a `game_rules.json` in the folder.
+Now we need to define the game rules for the custom gamemode. Create a `game_rules` folder inside the `RP`. Inside this folder, create a `game_rules.json`.
 
 ```json
 {
