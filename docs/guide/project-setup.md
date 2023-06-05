@@ -114,41 +114,6 @@ Copy the following code into your newly created `RP/manifest.json` and insert yo
 }
 ```
 
-## Registering Your Mod
-
-In order for Legends to detect your mod, you need to register your mod's UUID in the `valid_known_packs.json` file. If you don't have a `valid_known_packs.json`, create one.
-
-### Where to find valid_known_packs.json
-
--   Microsoft Store: `%APPDATA%\Minecraft Legends\games\com.mojang\minecraftpe\valid_known_packs.json`
--   Steam: `%APPDATA%\Minecraft Legends\<some numbers here for Steam>\games\com.mojang\minecraftpe\valid_known_packs.json`
-
-This is what your `valid_known_packs.json` should look like, remember to use the UUID in the header section you defined in your `manifest.json`
-
-<CodeHeader>valid_known_packs.json</CodeHeader>
-
-```json
-[
-    {
-        "file_version": 2
-    },
-
-    {
-        "file_system": "RawPath",
-        "path": "C:/Users/<USERNAME>/AppData/Roaming/Minecraft Legends/internalStorage/premium_cache/resource_packs/your_pack_name_RP",
-        "uuid": "...",
-        "version": "1.0.0"
-    },
-
-    {
-        "file_system": "RawPath",
-        "path": "C:/Users/<USERNAME>/AppData/Roaming/Minecraft Legends/internalStorage/premium_cache/behavior_packs/your_pack_name_BP",
-        "uuid": "...",
-        "version": "1.0.0"
-    }
-]
-```
-
 ## DLC Data
 
 The DLC Data folder is important for the game to register your mod as well. Create a folder, `dlc_data` in your RP folder.

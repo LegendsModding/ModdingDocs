@@ -40,6 +40,7 @@ export default {
                     text: 'World Generation',
                     collapsible: true,
                     children: [
+                        '/world-generation/world-generation-intro.md',
                         '/world-generation/biome-intro.md',
                         '/world-generation/biome-components.md',
                         '/world-generation/features.md'
