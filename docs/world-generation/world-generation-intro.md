@@ -41,24 +41,15 @@ In this section, we will attempt to generate the grasslands biome. First we need
 }
 ```
 
--   `biome`
-    -   Defines the biome for this card
--   `initial_villages`
-    -   How many villages are in this card
--   `placement_name`
-    -   The name for this card
--   `placement_rules`
-    -   Defines how this card will be generated or slotted
--   `placement_type`
-    -   The placement type: special, biome, slot
--   `spawn_entity`
-    -   Needed for world generation, defines the center of the map
--   `tags`
-    -   The tag for the cards
--   `unique_card_id`
-    -   This needs to be a unique name, similar to identifiers
--   `village_data`
-    -   What type of village will be placed
+-   `biome` - Defines the biome for this card
+-   `initial_villages` - How many villages are in this card
+-   `placement_name` - The name for this card
+-   `placement_rules` - Defines how this card will be generated or slotted
+-   `placement_type` - The placement type: special, biome, slot
+-   `spawn_entity` - Needed for world generation, defines the center of the map
+-   `tags` - The tag for the cards
+-   `unique_card_id` - This needs to be a unique name, similar to identifiers
+-   `village_data` - What type of village will be placed
 
 Now that the deck has been built, we need to tell the game how to handle the deck. This is where the scripting API comes in. In your `BP` folder, create a `scripts_bsharp20/world` folder. In it, create a `world_definition.js` file.
 
@@ -78,3 +69,51 @@ SNIPPET_InheritsFromGameMode('wiki_mod', () => {
 This is our deck manager. `wikiModWorldGenDefinition` can be named anything, but this contains the object that filters and manages the deck. `filterManager.AppendFilter` takes in two arguments, an array of tags and an integer. `SNIPPET_InheritsFromGameMode` tells the game that for this type of game mode, it should create this type of world generation. Make sure the tags matches the ones in your deck and the string in `SNIPPET_InheritsFromGameMode` matches your mod identifier.
 
 If everything is done correctly, you should spawn in a meadows biome. Pressing the map key should show you're in a meadows biome and not a flatland.
+
+### Adding more biomes
+
+Now that we have gone over the basics, we'll add more biomes to our world generation. We'll add the jungle in our example. Recall that each biome is a card, which is an object in a deck which is an array.
+
+```json
+{
+    "factions": [
+        {...},
+        {
+            "biome": {
+                "biome": "jungle",
+                "spread_priority": 1,
+                "starting_pixels": 16,
+                "total_pixels": 16
+            },
+            "initial_villages": {
+                "small": {
+                    "count": 1
+                }
+            },
+            "placement_name": "jungle_set1",
+            "placement_rules": [
+                {
+                    "distance": {
+                        "chunk_distance_from_parent": [
+                            64,
+                            96
+                        ],
+                        "distance_to_zero_score": 20,
+                        "tag_parent": "center",
+                        "weight": 1
+                    }
+                }
+            ],
+            "placement_type": "biome",
+            "tags": ["wiki_mod", "set1"]
+        }
+    ]
+}
+```
+
+In this example, the placement rule is different. The placement rule tells the game to place this biome 64-96 chunks away from the tag, "center". There isn't much documentation for placement rules so it is recommended to check out the vanilla examples. Now we need to tell our deck manager to generate this card.
+
+```js
+filterManager.AppendFilter(['wiki_mod', 'center'], 1);
+filterManager.AppendFilter(['wiki_mod', 'set1'], 1);
+```
