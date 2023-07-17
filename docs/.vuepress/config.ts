@@ -60,6 +60,10 @@ export default {
 
         navbar: [
             {
+                text: 'Official Docs',
+                link: 'https://github.com/Mojang/minecraft-legends-docs'
+            },
+            {
                 text: 'Discord',
                 link: 'https://discord.gg/NyzQgPKz5S'
             },
