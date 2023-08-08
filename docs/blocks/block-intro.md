@@ -1,3 +1,8 @@
+---
+title: Intro to Blocks
+nav_order: 1
+---
+
 # Intro to Blocks
 
 Minecraft Legends allows us to add custom blocks into the game. This tutorial will cover how to create some simple blocks.

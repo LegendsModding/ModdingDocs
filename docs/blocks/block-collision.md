@@ -1,3 +1,7 @@
+---
+title: Block Collision
+---
+
 # Block Collision
 
 Here's a list of all known block collision used in Legends

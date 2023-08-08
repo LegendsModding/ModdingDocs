@@ -1,3 +1,7 @@
+---
+title: Block Shape
+---
+
 # Block Shape
 
 Here's a list of all known block shape used in Legends

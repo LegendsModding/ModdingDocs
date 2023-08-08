@@ -1,3 +1,7 @@
+---
+title: Block Components
+---
+
 # Block Components
 
 Here's a list of all block components, more documentation coming soon.
