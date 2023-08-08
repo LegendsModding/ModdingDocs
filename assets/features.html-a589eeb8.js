@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-382dcd19","path":"/world-generation/features.html","title":"Features","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1684492068000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":1}]},"filePathRelative":"world-generation/features.md"}');export{e as data};

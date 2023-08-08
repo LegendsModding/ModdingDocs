@@ -1,0 +1,1 @@
+const l=JSON.parse('{"key":"v-6c5d5712","path":"/blocks/block-collision.html","title":"Block Collision","lang":"en-US","frontmatter":{"title":"Block Collision"},"headers":[],"git":{"updatedTime":1691525576000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":2}]},"filePathRelative":"blocks/block-collision.md"}');export{l as data};

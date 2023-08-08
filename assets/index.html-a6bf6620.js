@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2305cafa","path":"/world-generation/","title":"World Generation","lang":"en-US","frontmatter":{"title":"World Generation"},"headers":[],"git":{"updatedTime":1691528471000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":1}]},"filePathRelative":"world-generation/index.md"}');export{e as data};

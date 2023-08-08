@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Welcome Hero!","lang":"en-US","frontmatter":{"hidden":true},"headers":[],"git":{"updatedTime":1691525576000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":2}]},"filePathRelative":"README.md"}');export{e as data};

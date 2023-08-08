@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-4c699e82","path":"/blocks/block-material.html","title":"Block Material","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1683060675000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":1}]},"filePathRelative":"blocks/block-material.md"}');export{a as data};

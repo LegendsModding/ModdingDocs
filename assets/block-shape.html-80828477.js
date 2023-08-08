@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-6d028168","path":"/blocks/block-shape.html","title":"Block Shape","lang":"en-US","frontmatter":{"title":"Block Shape"},"headers":[],"git":{"updatedTime":1691525576000,"contributors":[{"name":"SmokeyStack","email":"seansyahril04@gmail.com","commits":3}]},"filePathRelative":"blocks/block-shape.md"}');export{e as data};
