@@ -1,3 +1,8 @@
+---
+title: Software and Preparation
+nav_order: 1
+---
+
 # Software and Preparation
 
 Before you can start modding Legends, you first have to install the required tools and applications.

@@ -31,6 +31,7 @@ function getCategories(frontMatter: matter.GrayMatterFile<string>) {
     const data: {
         text: any;
         data: any;
+        link: string;
     }[] = [];
     if (!frontMatter.data.categories) {
         return data;
@@ -48,7 +49,8 @@ function getCategories(frontMatter: matter.GrayMatterFile<string>) {
         category.category = category.title;
         data.push({
             text: category.title,
-            data: category
+            data: category,
+            link: ''
         });
     });
 
@@ -65,6 +67,7 @@ function generateSidebar(base: string, dir: string) {
         text: any;
         data: { [key: string]: any };
         children?: any;
+        link?: string;
         collapsible?: boolean;
     }[] = [];
     const files = fs.readdirSync(dir);
@@ -72,7 +75,6 @@ function generateSidebar(base: string, dir: string) {
     files.forEach(function (file) {
         let joinedPath = path.join(dir, file);
         const stats = fs.statSync(joinedPath);
-
         // Handle top level directories
         if (
             stats.isDirectory() &&
@@ -102,9 +104,9 @@ function generateSidebar(base: string, dir: string) {
 
             order = getCategoryOrder(frontMatter);
 
-            const children = generateSidebar(base, joinedPath);
-
-            console.log('Children\n' + children);
+            const children = generateSidebar(base, joinedPath).concat(
+                getCategories(frontMatter)
+            );
 
             children.sort(
                 (
@@ -174,7 +176,8 @@ function generateSidebar(base: string, dir: string) {
 
             data.push({
                 text: frontMatter.data.title,
-                data: frontMatter.data
+                data: frontMatter.data,
+                link
             });
             if (frontMatter.data.title === void 0) {
                 joinedPath = path.relative(process.cwd(), joinedPath);
@@ -210,7 +213,6 @@ function generateSidebar(base: string, dir: string) {
 
 function getSidebar() {
     const docsPath = path.join(process.cwd(), 'docs');
-    console.log(generateSidebar(docsPath, docsPath)[0]);
     return generateSidebar(docsPath, docsPath);
 }
 
@@ -236,16 +238,16 @@ export default {
 
         navbar: [
             {
+                text: 'Contribute',
+                link: '/contribute.md'
+            },
+            {
                 text: 'Official Docs',
                 link: 'https://github.com/Mojang/minecraft-legends-docs'
             },
             {
                 text: 'Discord',
                 link: 'https://discord.gg/NyzQgPKz5S'
-            },
-            {
-                text: 'Contribute',
-                link: 'https://github.com/LegendsModding/ModdingDocs'
             }
         ]
     })

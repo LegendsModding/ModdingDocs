@@ -1,3 +1,7 @@
+---
+title: Biome Components
+---
+
 # Biome Components
 
 Here's a list of all biome components, more documentation coming soon.

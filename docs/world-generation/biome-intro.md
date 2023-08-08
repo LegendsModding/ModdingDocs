@@ -1,3 +1,8 @@
+---
+title: Intro to Biomes
+nav_order: 2
+---
+
 # Intro to Biomes
 
 Minecraft Legends allows us to create **custom** biomes or **override** vanilla biomes.

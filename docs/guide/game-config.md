@@ -1,3 +1,8 @@
+---
+title: Game Configuration
+nav_order: 3
+---
+
 # Game Configuration
 
 Now that Legends registers your mod, it's time for you to be able to test it.
