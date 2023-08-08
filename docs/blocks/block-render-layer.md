@@ -1,3 +1,7 @@
+---
+title: Block Render Layer
+---
+
 # Block Render Layer
 
 Here's a list of all known block render layer used in Legends

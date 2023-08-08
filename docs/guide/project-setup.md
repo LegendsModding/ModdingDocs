@@ -1,3 +1,8 @@
+---
+title: Project Setup
+nav_order: 2
+---
+
 # Project Setup
 
 ## The premium_cache folder

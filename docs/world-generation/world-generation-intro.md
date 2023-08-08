@@ -1,3 +1,8 @@
+---
+title: Intro to World Generation
+nav_order: 1
+---
+
 # Intro to World Generation
 
 You can change the world's generation in Minecraft Legends. Setting it up however is a bit tricky at first. This guide will go over generating biomes and features.

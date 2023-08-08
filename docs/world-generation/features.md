@@ -1,3 +1,7 @@
+---
+title: Features
+---
+
 # Features
 
 Here's a list of all feature types, more documentation coming soon.

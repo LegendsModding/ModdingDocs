@@ -1,3 +1,7 @@
+---
+title: Block Material
+---
+
 # Block Material
 
 Here's a list of all known block material used in Legends

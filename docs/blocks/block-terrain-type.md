@@ -1,3 +1,7 @@
+---
+title: Block Terrain Type
+---
+
 # Block Terrain Type
 
 Here's a list of all known block terrain type used in Legends
