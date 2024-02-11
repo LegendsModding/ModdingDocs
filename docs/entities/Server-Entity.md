@@ -3612,5 +3612,3 @@ If this entity spawns entities, it will be bound by the cap of the type specifie
 
 The identifier is used to register the entity with the server. The matching identifier in the Entity Behavior JSON in the Resource Pack is what gives the entity its appearance.
 
-# Contributes 
-Mohammed85 and SmokeyStack

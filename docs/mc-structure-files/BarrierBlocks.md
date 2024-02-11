@@ -56,3 +56,4 @@ Player and Mob collision, no damage receiver. Block is denetherable and gatherab
 Used in the obstacle horde mushroom trees. This act the same as the `block_barrier_soft` but when the tree is denethered the barrier blocks will also disappear.
 
 ![](images/barrier_blocks/image06.png)
+

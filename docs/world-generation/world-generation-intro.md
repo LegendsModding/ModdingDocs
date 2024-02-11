@@ -122,3 +122,6 @@ In this example, the placement rule is different. The placement rule tells the g
 filterManager.AppendFilter(['wiki_mod', 'center'], 1);
 filterManager.AppendFilter(['wiki_mod', 'set1'], 1);
 ```
+
+# Whats next?
+Now that you are familar with `placements_world` & `world_definition` files. If you are intreasted in doing more advanced things read the [World Placment](../world-generation/world-placement), in it you will find details about placments rules and allot more usefull stuff.

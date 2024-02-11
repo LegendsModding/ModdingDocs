@@ -1,6 +1,6 @@
 ---
 title: Intro to Biomes
-nav_order: 2
+nav_order: 1
 ---
 
 # Intro to Biomes

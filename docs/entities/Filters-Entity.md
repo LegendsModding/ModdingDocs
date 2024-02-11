@@ -65,6 +65,3 @@ Tests whether the biome the subject is in has the specified tag.
 ```
 { "test": "has_biome_tag", "value": " " }
 ```
-
-# Contributes 
-Mohammed85

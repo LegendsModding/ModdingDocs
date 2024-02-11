@@ -1137,5 +1137,3 @@ Specifies the names of render controllers. This name needs to match the name of 
 
 Legacy, not used.
 
-# Contributes
-Mohammed85
