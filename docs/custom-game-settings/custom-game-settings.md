@@ -5,7 +5,7 @@ nav_order: 1
 
 # Minecraft Legends - Custom Game Settings
 
-![](images/custom_game_settings/image01.png)
+![](/images/custom_game_settings/image01.png)
 
 **Figure 1:** Screenshot of custom settings screen
 
@@ -57,7 +57,7 @@ The main categories are the names of the Tabs in the custom settings screen and 
 
 Add the setting to an existing category/subcategory. May choose to create a new category or subcategory, this will create a new tab or sub header respectively.
 
-![](images/custom_game_settings/tabs.png)
+![](/images/custom_game_settings/tabs.png)
 
 ---
 
@@ -91,15 +91,15 @@ _possible values_: "int", "float" or "string"
 
 _possible values_:
 
-| Type        | Visual                                          | "uiType"                | "valueType"    | "options"                         |
-| ----------- | ----------------------------------------------- | ----------------------- | -------------- | --------------------------------- |
-| Switch      | ![](images/custom_game_settings/switch.png)     | "switch"                | "int"          |                                   |
-| Slider      | ![](images/custom_game_settings/slider.png)     | "slider"                | "int", "float" | [{"min": #}, {"max": #}]          |
-| Button      | ![](images/custom_game_settings/button.png)     | "button" or "rowbutton" | n/a            |                                   |
-| Dropdown    | ![](images/custom_game_settings/dropdown.png)   | "dropdown"              | "int"          | {"label": string}                 |
-| Textfield   | ![](images/custom_game_settings/textfield.png)  | "textfield"             | "string"       |                                   |
-| Radio Group | ![](images/custom_game_settings/radiogroup.png) | "radiogroup"            | "string"       | [{"label": option name}, {} ....] |
-| Toggles     | ![](images/custom_game_settings/toggles.png)    | "toggles"               | "int"          |                                   |
+| Type        | Visual                                           | "uiType"                | "valueType"    | "options"                         |
+| ----------- | ------------------------------------------------ | ----------------------- | -------------- | --------------------------------- |
+| Switch      | ![](/images/custom_game_settings/switch.png)     | "switch"                | "int"          |                                   |
+| Slider      | ![](/images/custom_game_settings/slider.png)     | "slider"                | "int", "float" | [{"min": #}, {"max": #}]          |
+| Button      | ![](/images/custom_game_settings/button.png)     | "button" or "rowbutton" | n/a            |                                   |
+| Dropdown    | ![](/images/custom_game_settings/dropdown.png)   | "dropdown"              | "int"          | {"label": string}                 |
+| Textfield   | ![](/images/custom_game_settings/textfield.png)  | "textfield"             | "string"       |                                   |
+| Radio Group | ![](/images/custom_game_settings/radiogroup.png) | "radiogroup"            | "string"       | [{"label": option name}, {} ....] |
+| Toggles     | ![](/images/custom_game_settings/toggles.png)    | "toggles"               | "int"          |                                   |
 
 ---
 
@@ -170,7 +170,7 @@ For slider settings only. Numeric value to be used as the slider value increment
 
 _possible values_: any whole number (preferably a number that will divide the full range of the slider evenly)
 
-![](images/custom_game_settings/sliderSteps.png)
+![](/images/custom_game_settings/sliderSteps.png)
 
 ---
 
@@ -184,7 +184,7 @@ The values for each custom game setting can then be used with entity archetype d
 
 Entities are constructed with a series of components that describe their behaviour. Since custom game settings are server-bound, this section only applies to server entity descriptions. For more general information about how entities are constructed, as well as a list of all the available components and their properties, check out the documentation for [Entities](https://github.com/Mojang/minecraft-legends-docs/blob/main/Entities.md#server-entity-documentation).
 
-In particular, there is a family of components with similar names: <i>badger:difficulty_modifier_...</i>
+In particular, there is a family of components with similar names: <i>badger:difficulty*modifier*...</i>
 
 These components are the mechanism in which an entity's properties can be altered based on what difficulty is chosen by the player. Consider this example:
 
