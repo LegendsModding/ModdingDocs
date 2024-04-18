@@ -104,4 +104,4 @@ The best place to get help with this guide is to join the [discord server](https
 
 ### Additional Links and Tools
 
--   You can explore additional tools [here](/ModdingDocs/meta/useful-links).
+-   You can explore additional tools [here](/meta/useful-links).
